@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Suite">
+    <test name="EpexSpot">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="tests.ReadCSVTest"></class>
+        </classes>
+    </test>
+</suite>
